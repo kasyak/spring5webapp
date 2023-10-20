@@ -5,13 +5,11 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import javax.persistence.Entity;
 import javax.persistence.Id;
-import javax.persistence.ManyToMany;
 import java.util.HashSet;
 import java.util.Set;
 
-@Entity
+//@Entity
 @NoArgsConstructor
 @EqualsAndHashCode
 @Getter
@@ -23,5 +21,5 @@ public class Author {
     private String lastName;
 
 //    @ManyToMany(mappedBy = "authors")
-//    private Set<Book> books = new HashSet<>();
+    private Set<Book> books = new HashSet<>();
 }
