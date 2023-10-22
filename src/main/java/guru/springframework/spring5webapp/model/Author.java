@@ -1,11 +1,11 @@
 package guru.springframework.spring5webapp.model;
 
+import jakarta.persistence.Id;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import javax.persistence.Id;
 import java.util.HashSet;
 import java.util.Set;
 
