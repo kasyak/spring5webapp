@@ -18,7 +18,7 @@ public class Spring5webappApplicationTests {
 	void testBookRepository() {
 		long count = bookRepository.count();
 
-		assertThat(count).isEqualTo(1);
+		assertThat(count).isEqualTo(2);
 	}
 
 	@Test
